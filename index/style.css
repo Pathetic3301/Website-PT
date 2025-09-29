@@ -1,0 +1,137 @@
+/* * affects everything ig */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: 'Roboto Mono', monospace;
+    color: #999;
+}
+
+body::-webkit-scrollbar { /* Annoying Ahh Scrollbar Remover */
+    display: none; 
+}
+
+
+.head {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #000;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+#nav a {
+    color: #999;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: color 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#nav a:hover {
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.card {
+    --accent: #fff;
+    --bg: url("hanger.jpg");
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+    margin-bottom: 1px;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+.card-image {
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(11, 14, 20, 0) 0%, #000 100%),
+        var(--bg) center/cover no-repeat;
+    position: relative;
+}
+
+.card-content {
+    width: 50%;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    background: (--accent);
+}
+
+.card-label {
+    font-size: 14px;
+    color: #aaa;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 10vh;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    color: #fff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.card-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: 2px solid #555;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.card:hover .card-title {
+    color: var(--accent);
+    text-shadow: 0 0 12px var(--accent);
+}
+
+.card .card-btn:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #000;
+    box-shadow: 0 0 10px var(--accent);
+}
+
+.card.combat {
+    --accent: #ff5555;
+    --bg: url("combat.jpg");
+}
+
+.card.support {
+    --accent: #5599ff;
+    --bg: url("support.jpg");
+}
+
+.card.recon {
+    --accent: #55ff55;
+    --bg: url("recon.jpg");
+}

@@ -1,0 +1,19 @@
+.card.fighter {
+    --accent: #ff5555;
+    --bg: url("../combat/fighter.jpg");
+}
+
+.card.attack {
+    --accent: #5599ff;
+    --bg: url("../combat/attack.jpg");
+}
+
+.card.bomber {
+    --accent: #55ff55;
+    --bg: url("../combat/bomber.jpg");
+}
+
+.card.mixed {
+    --accent: #ffffff;
+    --bg: url("../combat/mixed.jpg");
+}
