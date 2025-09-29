@@ -1,0 +1,28 @@
+[
+  {
+    "name": "F/A-18 Hornet",
+    "role": "Multirole Fighter | USA",
+    "img": "hornet.jpg",
+    "link": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet",
+    "specs": {
+      "Length": "17.1 m",
+      "Speed": "Mach 1.8"
+    }
+  },
+  {
+    "name": "Su-27 Flanker",
+    "role": "Air Superiority Fighter | USSR",
+    "img": "su27.jpg",
+    "link": "https://warthunder.fandom.com/wiki/Su-27"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "role": "Multirole Fighter | USA",
+    "img": "f16.jpg"
+  },
+  {
+    "name": "MiG-29 Fulcrum",
+    "role": "Multirole Fighter | USSR",
+    "img": "mig29.jpg"
+  }
+]

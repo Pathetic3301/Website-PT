@@ -1,0 +1,82 @@
+/* Catalogue wrapper */
+.info-catalogue {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Info Card */
+.info-card {
+    background: #111;
+    color: #eee;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto Mono', monospace;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+/* Header */
+.info-header h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.25rem;
+}
+
+.info-header p {
+    font-size: 0.85rem;
+    color: #aaa;
+    margin-bottom: 0.75rem;
+}
+
+/* Image */
+.info-image {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.info-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: transform 0.2s ease;
+}
+
+.info-image img:hover {
+    transform: scale(1.02);
+}
+
+/* Sections */
+.info-section {
+    margin: 1rem 0;
+}
+
+.info-section h3 {
+    color: #60a3d9;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.info-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-section li {
+    margin: 0.3rem 0;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
