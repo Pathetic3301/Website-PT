@@ -1,0 +1,22 @@
+.title {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+.title h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title p {
+    font-size: 1rem;
+    color: #bbb;
+    line-height: 1.6;
+}

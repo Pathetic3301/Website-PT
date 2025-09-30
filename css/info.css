@@ -1,0 +1,82 @@
+.info-catalogue {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.info-card {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  color: #ddd;
+}
+
+.info-header h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.info-header p {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.info-image {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.info-image img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.info-section h3 {
+  margin: 10px 0 5px;
+  color: #60a3d9;
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section li {
+  margin-bottom: 4px;
+}
+
+
+.info-section details {
+  background: #181818;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 12px;
+  color: #ddd;
+}
+
+.info-section summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #60a3d9;
+  list-style: none;
+}
+
+.info-section summary::-webkit-details-marker {
+  display: none;
+
+}
+
+.info-section[open] {
+  background: #202020;
+
+}
+
+.info-section details p {
+  margin: 6px 0;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  color: #bbb;
+}

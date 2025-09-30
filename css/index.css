@@ -1,14 +1,14 @@
 .card.combat {
     --accent: #ff5555;
-    --bg: url("../index/Combat.jpg");
+    --bg: url("../images/Combat.jpg");
 }
 
 .card.support {
     --accent: #5599ff;
-    --bg: url("../index/Support.jpg");
+    --bg: url("../images/Support.jpg");
 }
 
 .card.recon {
     --accent: #55ff55;
-    --bg: url("../index/Recon.jpg");
+    --bg: url("../images/Recon.jpg");
 }

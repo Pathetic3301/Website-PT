@@ -1,7 +1,7 @@
 
 .card {
     --accent: #fff;
-    --bg: url("hanger.jpg");
+    --bg: url("../images/hanger.jpg");
 
     display: flex;
     align-items: center;
@@ -68,19 +68,4 @@
     border-color: var(--accent);
     color: #000;
     box-shadow: 0 0 10px var(--accent);
-}
-
-.card.combat {
-    --accent: #ff5555;
-    --bg: url("combat.jpg");
-}
-
-.card.support {
-    --accent: #5599ff;
-    --bg: url("support.jpg");
-}
-
-.card.recon {
-    --accent: #55ff55;
-    --bg: url("recon.jpg");
 }

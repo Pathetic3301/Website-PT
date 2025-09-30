@@ -19,9 +19,8 @@ body::-webkit-scrollbar {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5vh;
     background: #000;
     position: sticky;
     top: 0;
@@ -31,18 +30,21 @@ body::-webkit-scrollbar {
 }
 
 
-.navbar .logo span {
+
+.navbar .logo{
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
     letter-spacing: 1px;
     text-transform:uppercase;
+    padding-right:10vw;
 }
 
 .navbar .nav-links {
     display: flex;
     list-style: none;
     align-items: center;
+    padding-right: 58vw;
 }
 
 .navbar .nav-links li {
@@ -81,6 +83,7 @@ body::-webkit-scrollbar {
     display: block;
     padding: 10px 15px;
     color: #ccc;
+    transition: ease-in-out;
 }
 
 .navbar .dropdown:hover .dropdown-menu {
@@ -91,7 +94,6 @@ body::-webkit-scrollbar {
 .search-icon a img {
     width: 3vh;
     height: 3vh;
-
     transition: filter 0.3s ease;
 }
 
