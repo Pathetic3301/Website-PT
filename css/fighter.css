@@ -1,0 +1,4 @@
+main{
+  background-image: url("fighter.jpg");
+  filter: brightness(50%);
+}
