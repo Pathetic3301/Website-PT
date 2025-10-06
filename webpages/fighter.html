@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hangar</title>
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/card.css">
-    <link rel="stylesheet" href="css/title.css">
-    <link rel="stylesheet" href="css/info.css">
-    <link rel="stylesheet" href="css/fighter.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/card.css">
+    <link rel="stylesheet" href="../css/title.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <link rel="stylesheet" href="../css/fighter.css">
 </head>
 
 
@@ -20,7 +20,7 @@
         </div>
     
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="dropdown">
                 <a href="#">Divisions</a>
                 <ul class="dropdown-menu">
@@ -33,27 +33,28 @@
             <li><a href="resources.html">Resources</a></li>
         </ul>
     
-        <div class="search-icon">
-            <a href="#"><img src="css/search-icon.png" alt="Search Icon"></a>
-        </div>
     </nav>
 
 <main>
 
-    <section class="title">
-        <h1>Fighter Aircraft</h1>
+<section class="card title-card">
+    <div class="card-image"></div>
+    <div class="card-content">
+        <h1 class="card-title">Fighter Aircraft</h1>
         <p>
-            Fighter aircraft are military aircraft designed primarily for air-to-air combat. In
-            military conflict, the role of fighter aircraft is to establish air superiority of the battlespace. Domination of the
-            airspace above a battlefield permits bombers and attack aircraft to engage in tactical and strategic bombing of enemy
-            targets, and helps prevent the enemy from doing the same.
+            Fighter aircraft are military aircraft designed primarily for air-to-air combat.
+            In military conflict, the role of fighter aircraft is to establish air superiority
+            of the battlespace. Domination of the airspace above a battlefield permits bombers
+            and attack aircraft to engage in tactical and strategic bombing of enemy targets,
+            and helps prevent the enemy from doing the same.
         </p>
-    </section>
-
+    </div>
+</section>
 <div class="info-catalogue">
 
-    <!-- USA -->
-    <div class="info-card">
+
+    <div class="info-card f15">
+        <div class="info-image"></div>
         <div class="info-header">
             <h2>🇺🇸 F-15 Eagle</h2>
             <p>Air Superiority Fighter — McDonnell Douglas (now Boeing)</p>
@@ -85,8 +86,9 @@
         </div>
     </div>
 
-    <!-- UK -->
-    <div class="info-card">
+
+    <div class="info-card lightning">
+        <div class="info-image"></div>
         <div class="info-header">
             <h2>🇬🇧 English Electric Lightning</h2>
             <p>Interceptor / Air Superiority Fighter — English Electric (later BAC)</p>
@@ -119,7 +121,8 @@
     </div>
 
     <!-- Germany -->
-    <div class="info-card">
+    <div class="info-card bf109">
+        <div class="info-image"></div>
         <div class="info-header">
             <h2>🇩🇪 Messerschmitt Bf 109</h2>
             <p>Fighter — Messerschmitt AG</p>
@@ -150,8 +153,9 @@
         </div>
     </div>
 
-    <!-- France -->
-    <div class="info-card">
+
+    <div class="info-card mirage">
+        <div class="info-image"></div>
         <div class="info-header">
             <h2>🇫🇷 Dassault Mirage III</h2>
             <p>Interceptor / Air Superiority Fighter — Dassault Aviation</p>
@@ -184,7 +188,8 @@
     </div>
 
     <!-- Russia -->
-    <div class="info-card">
+    <div class="info-card su27">
+        <div class="info-image"></div>
         <div class="info-header">
             <h2>🇷🇺 Sukhoi Su-27 “Flanker”</h2>
             <p>Air Superiority Fighter — Sukhoi Design Bureau</p>
@@ -215,6 +220,42 @@
             <p>Spawned variants: Su-30, Su-33, Su-35</p>
         </div>
     </div>
+
+        
+        <div class="info-card j10">
+            <div class="info-image"></div>
+            <div class="info-header">
+                <h2>🇨🇳 Sukhoi Chengdu J-10</h2>
+                <p>Air Superiority Fighter / Interceptor — Chengdu Aircraft Corporation</p>
+            </div>
+            <div class="info-section">
+                <h3>Specifications</h3>
+                <ul>
+                    <li><strong>Length:</strong> 16.9 m</li>
+                    <li><strong>Wingspan:</strong> 9.75 m</li>
+                    <li><strong>Max Takeoff Weight:</strong> 19,277 kg</li>
+                    <li><strong>Speed:</strong> Mach 2.2 (2,327 km/h)</li>
+                    <li><strong>Range:</strong> 1,850 km combat radius / 3,000 km ferry</li>
+                    <li><strong>Ceiling:</strong> 18,000 m</li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <h3>Armament</h3>
+                <ul>
+                    <li><strong>Gun:</strong> 1× 23 mm GSh-23 twin-barrel cannon</li>
+                    <li><strong>Missiles:</strong> PL-8 (IR), PL-10 (WVR), PL-12 (BVR), PL-15 (long-range) AAMs</li>
+                    <li><strong>Bombs:</strong> External hardpoints for drop tanks or guided bombs (secondary role)</li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <h3>Notes / History</h3>
+                <p>First flight: March 23, 1998</p>
+                <p>Designed to counter F-15, still in service</p>
+                <p>Spawned variants: Su-30, Su-33, Su-35</p>
+            </div>
+        </div>
+
+
 
 </div>
 

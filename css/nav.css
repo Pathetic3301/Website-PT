@@ -6,7 +6,6 @@
 }
 
 body {
-    background: #000;
     font-family: 'Roboto Mono', monospace;
     color: #999;
 }
@@ -88,16 +87,4 @@ body::-webkit-scrollbar {
 
 .navbar .dropdown:hover .dropdown-menu {
     display: block;
-}
-
-/* Search icon */
-.search-icon a img {
-    width: 3vh;
-    height: 3vh;
-    transition: filter 0.3s ease;
-}
-
-.search-icon a img:hover {
-    filter: invert(60%) sepia(100%) saturate(500%) hue-rotate(340deg);
-   
 }

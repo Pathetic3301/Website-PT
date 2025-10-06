@@ -1,6 +1,6 @@
 .card.combat {
     --accent: #ff5555;
-    --bg: url("../images/Combat.jpg");
+    --bg: url("../images/combat.jpg");
 }
 
 .card.support {

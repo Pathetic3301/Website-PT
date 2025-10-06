@@ -1,82 +1,84 @@
+
+/* this shit affects everything do not touch */
+
 .info-catalogue {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+  background: #0d0d0d;
 }
 
+/* card reset */
 .info-card {
-  background: #111;
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 15px;
-  color: #ddd;
+  --accent: #fff;
+  --img: url(../images/airplane-dancing.gif);
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 340px;
+  border-top: 3px double #333;
+  border-bottom: 3px double #333;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px var(--accent); 
+}
+
+
+.info-image {
+  width: 100%;
+  height: 200px;
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 60%),
+    var(--img) center/cover no-repeat;
+  border-bottom: 2px solid var(--accent);
+}
+
+/* layout your messy spaghetti text */
+
+.info-header,
+.info-section {
+  padding: 1rem 1.2rem;
 }
 
 .info-header h2 {
-  font-size: 1.5em;
-  margin-bottom: 5px;
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--accent);
 }
 
 .info-header p {
-  font-size: 0.9em;
   color: #aaa;
 }
 
-.info-image {
-  text-align: center;
-  margin: 10px 0;
-}
-
-.info-image img {
-  max-width: 100%;
-  border-radius: 6px;
-}
-
 .info-section h3 {
-  margin: 10px 0 5px;
-  color: #60a3d9;
+  color: var(--accent);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 
 .info-section ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .info-section li {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
-
-.info-section details {
-  background: #181818;
-  border: 1px solid #333;
-  border-radius: 6px;
-  padding: 10px;
-  margin-top: 12px;
-  color: #ddd;
+.info-section p {
+  color: #ccc;
+  margin: 0.3rem 0;
 }
 
-.info-section summary {
-  cursor: pointer;
-  font-weight: bold;
-  color: #60a3d9;
-  list-style: none;
-}
-
-.info-section summary::-webkit-details-marker {
-  display: none;
-
-}
-
-.info-section[open] {
-  background: #202020;
-
-}
-
-.info-section details p {
-  margin: 6px 0;
-  font-size: 0.9em;
-  line-height: 1.4em;
-  color: #bbb;
-}
