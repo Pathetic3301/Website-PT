@@ -1,0 +1,32 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* BEGONE SCROLLBAR, you have no right being here! */
+}
+
+
+.card.title-card {
+    --accent: #cae51b;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card.title-card .card-image {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), #000),
+        url("../images/airplane-dancing.gif") center/cover no-repeat;
+}
+
+.card.title-card .card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    background: none;
+}
+

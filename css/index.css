@@ -5,10 +5,10 @@
 
 .card.support {
     --accent: #5599ff;
-    --bg: url("../images/support.jpg");
+    --bg: url("../images/Support.jpg");
 }
 
 .card.recon {
     --accent: #55ff55;
-    --bg: url("../images/recon.jpg");
+    --bg: url("../images/Recon.jpg");
 }
